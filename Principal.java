@@ -1,9 +1,9 @@
 public class Principal {
 	public static void main(String[] args) {
 		Locadora l = new Locadora();
-		l.setCodigo(123);
+		l.setCodigo(76876);
 		l.setNome(" Harry Potter ");
-		l.setValor(2.50);
+		l.setValor(5.00);
 		l.devolver();
 		
 		l.mostra();		
@@ -11,7 +11,7 @@ public class Principal {
 		l.mostra();
 		
 		try {
-			f.retirar();
+			l.retirar();
 		} catch (RuntimeException e) {
 			System.out.println(e.getMessage());
 		}
