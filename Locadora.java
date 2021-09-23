@@ -40,7 +40,7 @@ public class Locadora {
 		if(disponivel == true) {
 			disponivel = false;
 		}else{
-			throw new RuntimeException("Este filme não está disponível para locação!");
+			throw new RuntimeException("Este filme não está disponível!");
 		}
 				
 	}
